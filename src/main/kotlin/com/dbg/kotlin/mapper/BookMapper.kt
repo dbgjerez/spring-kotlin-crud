@@ -4,7 +4,6 @@ import com.dbg.kotlin.dto.BookDTO
 import com.dbg.kotlin.model.Book
 import org.bson.types.ObjectId
 import org.springframework.stereotype.Component
-import java.util.*
 
 @Component
 class BookMapper : Mapper<Book, BookDTO> {

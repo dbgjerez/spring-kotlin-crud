@@ -2,15 +2,12 @@ package com.dbg.kotlin.controller
 
 import com.dbg.kotlin.dto.BookDTO
 import com.dbg.kotlin.mapper.BookMapper
-import com.dbg.kotlin.model.Book
 import com.dbg.kotlin.service.BookServiceImpl
 import org.bson.types.ObjectId
-import org.springframework.data.crossstore.ChangeSetPersister
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
 import org.springframework.web.bind.annotation.*
 import java.util.*
-import javax.swing.text.html.Option
 
 @RestController
 @RequestMapping("/book")
